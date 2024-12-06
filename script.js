@@ -45,7 +45,7 @@ window.addEventListener("resize", function () {
 
 function files(index) {
   var data = `
-          ./male001.png
+     ./male001.png
      ./male0002.png
      ./male0003.png
      ./male0004.png
@@ -344,7 +344,8 @@ function files(index) {
      ./male0297.png
      ./male0298.png
      ./male0299.png
-     ./male0300.png `;
+     ./male0300.png
+ `;
   return data.split("\n")[index];
 }
 
